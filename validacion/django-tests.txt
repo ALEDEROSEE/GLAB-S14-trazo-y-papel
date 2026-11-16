@@ -1,0 +1,58 @@
+Creating test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+
+Found 20 test(s).
+Operations to perform:
+  Synchronize unmigrated apps: messages, rest_framework, staticfiles
+  Apply all migrations: admin, auth, catalogo, contenttypes, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying catalogo.0001_initial... OK
+  Applying catalogo.0002_producto_descuento_porcentaje_movimientoinventario... OK
+test_admin_muestra_error_sin_perder_historial (catalogo.test_lab14.FuncionesLab14Tests.test_admin_muestra_error_sin_perder_historial) ... ok
+test_busqueda_en_descripcion_y_sin_distinguir_mayusculas (catalogo.test_lab14.FuncionesLab14Tests.test_busqueda_en_descripcion_y_sin_distinguir_mayusculas) ... ok
+test_descuento_decimal_y_precio_original (catalogo.test_lab14.FuncionesLab14Tests.test_descuento_decimal_y_precio_original) ... ok
+test_descuento_fuera_de_rango_se_rechaza (catalogo.test_lab14.FuncionesLab14Tests.test_descuento_fuera_de_rango_se_rechaza) ... ok
+test_entrada_y_salida_hasta_cero (catalogo.test_lab14.FuncionesLab14Tests.test_entrada_y_salida_hasta_cero) ... ok
+test_fallo_al_guardar_historial_revierte_cambio_de_stock (catalogo.test_lab14.FuncionesLab14Tests.test_fallo_al_guardar_historial_revierte_cambio_de_stock) ... ok
+test_filtros_categoria_busqueda_y_disponibilidad_se_combinan (catalogo.test_lab14.FuncionesLab14Tests.test_filtros_categoria_busqueda_y_disponibilidad_se_combinan) ... ok
+test_inventario_admin_requiere_login_permiso_y_csrf (catalogo.test_lab14.FuncionesLab14Tests.test_inventario_admin_requiere_login_permiso_y_csrf) ... ok
+test_ofertas_excluyen_agotados_y_sin_descuento (catalogo.test_lab14.FuncionesLab14Tests.test_ofertas_excluyen_agotados_y_sin_descuento) ... ok
+test_orden_precio_usa_importe_con_descuento (catalogo.test_lab14.FuncionesLab14Tests.test_orden_precio_usa_importe_con_descuento) ... ok
+test_parametros_invalidos_responden_400 (catalogo.test_lab14.FuncionesLab14Tests.test_parametros_invalidos_responden_400) ... ok
+test_rechaza_cero_negativos_fracciones_y_motivo_vacio (catalogo.test_lab14.FuncionesLab14Tests.test_rechaza_cero_negativos_fracciones_y_motivo_vacio) ... ok
+test_recomendacion_prioriza_categoria_y_excluye_base_y_agotados (catalogo.test_lab14.FuncionesLab14Tests.test_recomendacion_prioriza_categoria_y_excluye_base_y_agotados) ... ok
+test_recomendacion_sin_contexto_y_producto_inexistente (catalogo.test_lab14.FuncionesLab14Tests.test_recomendacion_sin_contexto_y_producto_inexistente) ... ok
+test_salida_excesiva_no_cambia_stock_ni_historial (catalogo.test_lab14.FuncionesLab14Tests.test_salida_excesiva_no_cambia_stock_ni_historial) ... ok
+test_salida_guarda_saldo_y_usuario (catalogo.test_lab14.FuncionesLab14Tests.test_salida_guarda_saldo_y_usuario) ... ok
+test_usuario_sin_permiso_no_puede_mover_stock (catalogo.test_lab14.FuncionesLab14Tests.test_usuario_sin_permiso_no_puede_mover_stock) ... ok
+test_cambio_en_base_se_refleja_en_el_listado (catalogo.tests.CatalogoApiTests.test_cambio_en_base_se_refleja_en_el_listado) ... ok
+test_endpoints_son_solo_lectura (catalogo.tests.CatalogoApiTests.test_endpoints_son_solo_lectura) ... ok
+test_listados_incluyen_datos_y_relacion (catalogo.tests.CatalogoApiTests.test_listados_incluyen_datos_y_relacion) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.823s
+
+OK
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+
+  Applying sessions.0001_initial... OK
+System check identified no issues (0 silenced).

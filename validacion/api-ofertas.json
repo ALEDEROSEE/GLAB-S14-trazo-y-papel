@@ -1,0 +1,38 @@
+[
+  {
+    "id": 3,
+    "nombre": "Set de resaltadores pastel",
+    "descripcion": "Seis tonos suaves que no tapan el texto de tus apuntes.",
+    "precio": "22.00",
+    "precio_final": "19.80",
+    "descuento_porcentaje": 10,
+    "imagen": "/productos/resaltadores.svg",
+    "cantidad_disponible": 15,
+    "categoria": 2,
+    "categoria_nombre": "Escritura"
+  },
+  {
+    "id": 5,
+    "nombre": "Planificador semanal",
+    "descripcion": "Bloc de escritorio para ordenar tareas y fechas importantes.",
+    "precio": "24.00",
+    "precio_final": "20.40",
+    "descuento_porcentaje": 15,
+    "imagen": "/productos/planificador.svg",
+    "cantidad_disponible": 6,
+    "categoria": 3,
+    "categoria_nombre": "Organización"
+  },
+  {
+    "id": 1,
+    "nombre": "Cuaderno A5 terracota",
+    "descripcion": "Tapa dura y 100 hojas punteadas para apuntes y bocetos.",
+    "precio": "28.90",
+    "precio_final": "23.12",
+    "descuento_porcentaje": 20,
+    "imagen": "/productos/cuaderno.svg",
+    "cantidad_disponible": 14,
+    "categoria": 1,
+    "categoria_nombre": "Cuadernos"
+  }
+]

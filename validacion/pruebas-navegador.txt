@@ -1,0 +1,13 @@
+Inicio: 6 productos, 3 categorías y 3 promociones.
+Buscar GEL + categoría Escritura: Lapiceros de tinta gel; 1 resultado.
+Buscar GEL + Organización: 0 resultados y aviso visible.
+Ofertas por precio final ascendente: S/ 19.80, S/ 20.40, S/ 23.12
+Recomendaciones para A5: 2, 5, 3 (excluyen el A5 y las notas agotadas).
+Vista 360px: ancho del documento 360px; sin desplazamiento horizontal.
+Vista 390px: ancho del documento 390px; sin desplazamiento horizontal.
+Vista 768px: ancho del documento 768px; sin desplazamiento horizontal.
+Inventario: salida de 3 cuadernos, 12 → 9.
+Inventario: entrada de 5 cuadernos, 9 → 14.
+Salida de 99 rechazada: stock permanece en 14; historial conserva solo 2 movimientos.
+Catálogo recargado: Cuaderno A5 muestra 14 disponibles y precio S/ 23.12.
+Errores JavaScript durante todas las interacciones: 0.

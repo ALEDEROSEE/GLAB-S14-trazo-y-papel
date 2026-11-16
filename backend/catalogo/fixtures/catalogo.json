@@ -1,0 +1,101 @@
+[
+  {
+    "model": "catalogo.categoria",
+    "pk": 1,
+    "fields": {
+      "nombre": "Cuadernos"
+    }
+  },
+  {
+    "model": "catalogo.categoria",
+    "pk": 2,
+    "fields": {
+      "nombre": "Escritura"
+    }
+  },
+  {
+    "model": "catalogo.categoria",
+    "pk": 3,
+    "fields": {
+      "nombre": "Organización"
+    }
+  },
+  {
+    "model": "catalogo.producto",
+    "pk": 1,
+    "fields": {
+      "nombre": "Cuaderno A5 terracota",
+      "descripcion": "Tapa dura y 100 hojas punteadas para apuntes y bocetos.",
+      "precio": "28.90",
+      "imagen": "/productos/cuaderno.svg",
+      "cantidad_disponible": 12,
+      "categoria": 1,
+      "descuento_porcentaje": 20
+    }
+  },
+  {
+    "model": "catalogo.producto",
+    "pk": 2,
+    "fields": {
+      "nombre": "Cuaderno de bolsillo",
+      "descripcion": "Formato ligero con hojas rayadas, ideal para llevar a clase.",
+      "precio": "16.50",
+      "imagen": "/productos/bolsillo.svg",
+      "cantidad_disponible": 8,
+      "categoria": 1,
+      "descuento_porcentaje": 0
+    }
+  },
+  {
+    "model": "catalogo.producto",
+    "pk": 3,
+    "fields": {
+      "nombre": "Set de resaltadores pastel",
+      "descripcion": "Seis tonos suaves que no tapan el texto de tus apuntes.",
+      "precio": "22.00",
+      "imagen": "/productos/resaltadores.svg",
+      "cantidad_disponible": 15,
+      "categoria": 2,
+      "descuento_porcentaje": 10
+    }
+  },
+  {
+    "model": "catalogo.producto",
+    "pk": 4,
+    "fields": {
+      "nombre": "Lapiceros de tinta gel",
+      "descripcion": "Paquete de tres lapiceros negros de trazo fino 0.5 mm.",
+      "precio": "14.90",
+      "imagen": "/productos/lapiceros.svg",
+      "cantidad_disponible": 20,
+      "categoria": 2,
+      "descuento_porcentaje": 0
+    }
+  },
+  {
+    "model": "catalogo.producto",
+    "pk": 5,
+    "fields": {
+      "nombre": "Planificador semanal",
+      "descripcion": "Bloc de escritorio para ordenar tareas y fechas importantes.",
+      "precio": "24.00",
+      "imagen": "/productos/planificador.svg",
+      "cantidad_disponible": 6,
+      "categoria": 3,
+      "descuento_porcentaje": 15
+    }
+  },
+  {
+    "model": "catalogo.producto",
+    "pk": 6,
+    "fields": {
+      "nombre": "Notas adhesivas tierra",
+      "descripcion": "Cuatro bloques de notas en colores cálidos, 50 hojas cada uno.",
+      "precio": "12.50",
+      "imagen": "/productos/notas.svg",
+      "cantidad_disponible": 0,
+      "categoria": 3,
+      "descuento_porcentaje": 0
+    }
+  }
+]
